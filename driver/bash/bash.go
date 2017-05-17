@@ -2,8 +2,8 @@
 package bash
 
 import (
-	"gopkg.in/mattes/migrate.v1/driver"
-	"gopkg.in/mattes/migrate.v1/file"
+	"gopkg.in/YuukiHogo/migrate.v1/driver"
+	"gopkg.in/YuukiHogo/migrate.v1/file"
 )
 
 type Driver struct {

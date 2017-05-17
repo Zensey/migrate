@@ -3,17 +3,17 @@ package example
 import (
 	"testing"
 
-	"gopkg.in/mattes/migrate.v1/file"
-	"gopkg.in/mattes/migrate.v1/migrate/direction"
+	"gopkg.in/YuukiHogo/migrate.v1/file"
+	"gopkg.in/YuukiHogo/migrate.v1/migrate/direction"
 
 	"os"
 	"reflect"
 	"time"
 
-	"gopkg.in/mattes/migrate.v1/driver"
-	"gopkg.in/mattes/migrate.v1/driver/mongodb"
-	"gopkg.in/mattes/migrate.v1/driver/mongodb/gomethods"
-	pipep "gopkg.in/mattes/migrate.v1/pipe"
+	"gopkg.in/YuukiHogo/migrate.v1/driver"
+	"gopkg.in/YuukiHogo/migrate.v1/driver/mongodb"
+	"gopkg.in/YuukiHogo/migrate.v1/driver/mongodb/gomethods"
+	pipep "gopkg.in/YuukiHogo/migrate.v1/pipe"
 )
 
 type ExpectedMigrationResult struct {

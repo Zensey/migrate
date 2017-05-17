@@ -1,6 +1,6 @@
 // Package main is the CLI.
 // You can use the CLI via Terminal.
-// import "gopkg.in/mattes/migrate.v1/migrate" for usage within Go.
+// import "gopkg.in/YuukiHogo/migrate.v1/migrate" for usage within Go.
 package main
 
 import (
@@ -11,19 +11,19 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	_ "gopkg.in/mattes/migrate.v1/driver/bash"
-	_ "gopkg.in/mattes/migrate.v1/driver/cassandra"
-	_ "gopkg.in/mattes/migrate.v1/driver/crate"
-	_ "gopkg.in/mattes/migrate.v1/driver/mssql"
-	_ "gopkg.in/mattes/migrate.v1/driver/mysql"
-	_ "gopkg.in/mattes/migrate.v1/driver/neo4j"
-	_ "gopkg.in/mattes/migrate.v1/driver/postgres"
-	_ "gopkg.in/mattes/migrate.v1/driver/ql"
-	_ "gopkg.in/mattes/migrate.v1/driver/sqlite3"
-	"gopkg.in/mattes/migrate.v1/file"
-	"gopkg.in/mattes/migrate.v1/migrate"
-	"gopkg.in/mattes/migrate.v1/migrate/direction"
-	pipep "gopkg.in/mattes/migrate.v1/pipe"
+	_ "gopkg.in/YuukiHogo/migrate.v1/driver/bash"
+	_ "gopkg.in/YuukiHogo/migrate.v1/driver/cassandra"
+	_ "gopkg.in/YuukiHogo/migrate.v1/driver/crate"
+	_ "gopkg.in/YuukiHogo/migrate.v1/driver/mssql"
+	_ "gopkg.in/YuukiHogo/migrate.v1/driver/mysql"
+	_ "gopkg.in/YuukiHogo/migrate.v1/driver/neo4j"
+	_ "gopkg.in/YuukiHogo/migrate.v1/driver/postgres"
+	_ "gopkg.in/YuukiHogo/migrate.v1/driver/ql"
+	_ "gopkg.in/YuukiHogo/migrate.v1/driver/sqlite3"
+	"gopkg.in/YuukiHogo/migrate.v1/file"
+	"gopkg.in/YuukiHogo/migrate.v1/migrate"
+	"gopkg.in/YuukiHogo/migrate.v1/migrate/direction"
+	pipep "gopkg.in/YuukiHogo/migrate.v1/pipe"
 )
 
 var url = flag.String("url", os.Getenv("MIGRATE_URL"), "")

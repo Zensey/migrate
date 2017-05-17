@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"testing"
 
-	"gopkg.in/mattes/migrate.v1/file"
-	"gopkg.in/mattes/migrate.v1/migrate/direction"
-	pipep "gopkg.in/mattes/migrate.v1/pipe"
+	"gopkg.in/YuukiHogo/migrate.v1/file"
+	"gopkg.in/YuukiHogo/migrate.v1/migrate/direction"
+	pipep "gopkg.in/YuukiHogo/migrate.v1/pipe"
 )
 
 // TestMigrate runs some additional tests on Migrate()

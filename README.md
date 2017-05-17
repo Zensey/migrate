@@ -11,13 +11,13 @@ A migration helper written in Go. Use it in your existing Golang code
 or run commands via the CLI. 
 
 ```
-GoCode   import gopkg.in/mattes/migrate.v1/migrate
-CLI      go get -u gopkg.in/mattes/migrate.v1
+GoCode   import gopkg.in/YuukiHogo/migrate.v1/migrate
+CLI      go get -u gopkg.in/YuukiHogo/migrate.v1
 ```
 
 __Features__
 
-* Super easy to implement [Driver interface](http://godoc.org/gopkg.in/mattes/migrate.v1/driver#Driver).
+* Super easy to implement [Driver interface](http://godoc.org/gopkg.in/YuukiHogo/migrate.v1/driver#Driver).
 * Gracefully quit running migrations on ``^C``.
 * No magic search paths routines, no hard-coded config files.
 * CLI is build on top of the ``migrate package``.
@@ -28,21 +28,21 @@ __Features__
  * [PostgreSQL](driver/postgres)
  * [Cassandra](driver/cassandra)
  * [SQLite](driver/sqlite3)
- * [MySQL](driver/mysql) ([experimental](https://github.com/mattes/migrate/issues/1#issuecomment-58728186))
+ * [MySQL](driver/mysql) ([experimental](https://gopkg.in/YuukiHogo/migrate.v1/issues/1#issuecomment-58728186))
  * [Neo4j](driver/neo4j)
  * [Ql](driver/ql)
  * [MongoDB](driver/mongodb)
  * [CrateDB](driver/crate)
  * [MSSQL](driver/mssql)
 
-Need another driver? Just implement the [Driver interface](http://godoc.org/gopkg.in/mattes/migrate.v1/driver#Driver) and open a PR.
+Need another driver? Just implement the [Driver interface](http://godoc.org/gopkg.in/YuukiHogo/migrate.v1/driver#Driver) and open a PR.
 
 
 ## Usage from Terminal
 
 ```bash
 # install
-go get gopkg.in/mattes/migrate.v1
+go get gopkg.in/YuukiHogo/migrate.v1
 
 # create new migration file in path
 migrate -url driver://url -path ./migrations create migration_file_xyz
@@ -81,13 +81,13 @@ migrate -url driver://url -path ./migrations goto v
 
 ## Usage in Go
 
-See GoDoc here: http://godoc.org/gopkg.in/mattes/migrate.v1/migrate
+See GoDoc here: http://godoc.org/gopkg.in/YuukiHogo/migrate.v1/migrate
 
 ```go
-import "gopkg.in/mattes/migrate.v1/migrate"
+import "gopkg.in/YuukiHogo/migrate.v1/migrate"
 
 // Import any required drivers so that they are registered and available
-import _ "gopkg.in/mattes/migrate.v1/driver/mysql"
+import _ "gopkg.in/YuukiHogo/migrate.v1/driver/mysql"
 
 // use synchronous versions of migration functions ...
 allErrors, ok := migrate.UpSync("driver://url", "./path")

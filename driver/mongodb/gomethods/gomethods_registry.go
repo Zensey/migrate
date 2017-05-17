@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"gopkg.in/mattes/migrate.v1/driver"
+	"gopkg.in/YuukiHogo/migrate.v1/driver"
 )
 
 var methodsReceiversMu sync.Mutex

@@ -3,9 +3,9 @@ package ql
 import (
 	"database/sql"
 
-	"gopkg.in/mattes/migrate.v1/driver"
-	"gopkg.in/mattes/migrate.v1/file"
-	"gopkg.in/mattes/migrate.v1/migrate/direction"
+	"gopkg.in/YuukiHogo/migrate.v1/driver"
+	"gopkg.in/YuukiHogo/migrate.v1/file"
+	"gopkg.in/YuukiHogo/migrate.v1/migrate/direction"
 
 	"fmt"
 	"strings"
