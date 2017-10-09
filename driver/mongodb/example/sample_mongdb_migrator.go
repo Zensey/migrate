@@ -3,12 +3,12 @@ package example
 import (
 	"time"
 
-	"gopkg.in/YuukiHogo/migrate.v1/driver/mongodb/gomethods"
-	_ "gopkg.in/YuukiHogo/migrate.v1/driver/mongodb/gomethods"
+	"gopkg.in/Zensey/migrate.v1/driver/mongodb/gomethods"
+	_ "gopkg.in/Zensey/migrate.v1/driver/mongodb/gomethods"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 
-	"gopkg.in/YuukiHogo/migrate.v1/driver/mongodb"
+	"gopkg.in/Zensey/migrate.v1/driver/mongodb"
 )
 
 type SampleMongoDbMigrator struct {

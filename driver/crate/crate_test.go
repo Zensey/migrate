@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"gopkg.in/YuukiHogo/migrate.v1/file"
-	"gopkg.in/YuukiHogo/migrate.v1/migrate/direction"
-	pipep "gopkg.in/YuukiHogo/migrate.v1/pipe"
+	"gopkg.in/Zensey/migrate.v1/file"
+	"gopkg.in/Zensey/migrate.v1/migrate/direction"
+	pipep "gopkg.in/Zensey/migrate.v1/pipe"
 )
 
 func TestContentSplit(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"path"
 	"strings"
 
-	"gopkg.in/YuukiHogo/migrate.v1/driver"
-	"gopkg.in/YuukiHogo/migrate.v1/file"
+	"gopkg.in/Zensey/migrate.v1/driver"
+	"gopkg.in/Zensey/migrate.v1/file"
 )
 
 type MethodNotFoundError string

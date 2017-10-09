@@ -5,7 +5,7 @@ import (
 	"fmt"
 	neturl "net/url" // alias to allow `url string` func signature in New
 
-	"gopkg.in/YuukiHogo/migrate.v1/file"
+	"gopkg.in/Zensey/migrate.v1/file"
 )
 
 // Driver is the interface type that needs to implemented by all drivers.

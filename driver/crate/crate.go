@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	_ "github.com/herenow/go-crate"
-	"gopkg.in/YuukiHogo/migrate.v1/driver"
-	"gopkg.in/YuukiHogo/migrate.v1/file"
-	"gopkg.in/YuukiHogo/migrate.v1/migrate/direction"
+	"gopkg.in/Zensey/migrate.v1/driver"
+	"gopkg.in/Zensey/migrate.v1/file"
+	"gopkg.in/Zensey/migrate.v1/migrate/direction"
 )
 
 func init() {

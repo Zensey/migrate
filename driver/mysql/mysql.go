@@ -12,9 +12,9 @@ import (
 	"strings"
 
 	"github.com/go-sql-driver/mysql"
-	"gopkg.in/YuukiHogo/migrate.v1/driver"
-	"gopkg.in/YuukiHogo/migrate.v1/file"
-	"gopkg.in/YuukiHogo/migrate.v1/migrate/direction"
+	"gopkg.in/Zensey/migrate.v1/driver"
+	"gopkg.in/Zensey/migrate.v1/file"
+	"gopkg.in/Zensey/migrate.v1/migrate/direction"
 )
 
 type Driver struct {

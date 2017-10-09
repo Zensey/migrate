@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"strings"
 
-	"gopkg.in/YuukiHogo/migrate.v1/driver"
-	"gopkg.in/YuukiHogo/migrate.v1/driver/mongodb/gomethods"
-	"gopkg.in/YuukiHogo/migrate.v1/file"
-	"gopkg.in/YuukiHogo/migrate.v1/migrate/direction"
+	"gopkg.in/Zensey/migrate.v1/driver"
+	"gopkg.in/Zensey/migrate.v1/driver/mongodb/gomethods"
+	"gopkg.in/Zensey/migrate.v1/file"
+	"gopkg.in/Zensey/migrate.v1/migrate/direction"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )

@@ -8,9 +8,9 @@ import (
 
 	// Ensure imports for each driver we wish to test
 
-	_ "gopkg.in/YuukiHogo/migrate.v1/driver/postgres"
-	_ "gopkg.in/YuukiHogo/migrate.v1/driver/ql"
-	_ "gopkg.in/YuukiHogo/migrate.v1/driver/sqlite3"
+	_ "gopkg.in/Zensey/migrate.v1/driver/postgres"
+	_ "gopkg.in/Zensey/migrate.v1/driver/ql"
+	_ "gopkg.in/Zensey/migrate.v1/driver/sqlite3"
 )
 
 // Add Driver URLs here to test basic Up, Down, .. functions.
