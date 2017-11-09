@@ -193,6 +193,6 @@ func parseConsistency(consistencyStr string) (consistency gocql.Consistency, err
 			}
 		}
 	}()
-	consistency, err = gocql.ParseConsistency(consistencyStr)
+	consistency = gocql.ParseConsistency(consistencyStr)
 	return
 }
